@@ -1,0 +1,160 @@
+2020-11-12 10:38:51 INFO  - Start of adding event method
+2020-11-12 10:38:51 INFO  - End of adding event method
+2020-11-12 10:38:51 INFO  - Execution of adding event took 49msec.
+2020-11-12 10:39:02 INFO  - Start of deleting event method
+2020-11-12 10:39:02 INFO  - End of deleting event method
+2020-11-12 10:39:02 INFO  - Execution of deleting event took 7msec.
+2020-11-12 10:39:14 INFO  - Start of changing event method
+2020-11-12 10:39:14 INFO  - End of changing event method
+2020-11-12 10:39:14 INFO  - Execution of changing event took 15msec.
+2020-11-13 11:49:45 INFO  - Start of deleting review method
+2020-11-13 11:49:45 INFO  - End of deleting review method
+2020-11-13 11:49:45 INFO  - Execution of deleting review took 7msec.
+2020-11-13 11:52:56 INFO  - Start of deleting review method
+2020-11-13 11:52:56 INFO  - End of deleting review method
+2020-11-13 11:52:56 INFO  - Execution of deleting review took 6msec.
+2020-11-13 12:04:08 INFO  - Start of adding event method
+2020-11-13 12:04:08 INFO  - Error: date: не должно равняться null
+2020-11-13 12:04:08 INFO  - End of adding event method
+2020-11-13 12:04:15 INFO  - Start of adding event method
+2020-11-13 12:04:15 INFO  - Error: description: размер должен находиться в диапазоне от 10 до 200
+2020-11-13 12:04:15 INFO  - End of adding event method
+2020-11-13 12:04:21 INFO  - Start of adding event method
+2020-11-13 12:04:21 INFO  - End of adding event method
+2020-11-13 12:04:21 INFO  - Execution of adding event took 6msec.
+2020-11-13 12:10:40 INFO  - Error: login: Invalid login
+2020-11-13 12:10:43 INFO  - Error: email: должно иметь формат адреса электронной почты
+2020-11-13 12:10:49 INFO  - Error: email: должно иметь формат адреса электронной почты
+2020-11-13 12:14:14 INFO  - Error: Incorrect login or password
+2020-11-13 12:14:28 INFO  - Error: Incorrect login or password
+2020-11-13 12:15:06 INFO  - Error: Please, go to the email indicated during registration and activate your account
+2020-11-13 12:28:41 INFO  - Start of deleting review method
+2020-11-13 12:28:41 INFO  - End of deleting review method
+2020-11-13 12:28:41 INFO  - Execution of deleting review took 1msec.
+2020-11-13 12:28:42 INFO  - Start of deleting review method
+2020-11-13 12:28:42 INFO  - End of deleting review method
+2020-11-13 12:28:42 INFO  - Execution of deleting review took 1msec.
+2020-11-13 12:28:42 INFO  - Start of deleting review method
+2020-11-13 12:28:42 INFO  - End of deleting review method
+2020-11-13 12:28:42 INFO  - Execution of deleting review took 1msec.
+2020-11-13 12:28:43 INFO  - Start of deleting review method
+2020-11-13 12:28:43 INFO  - End of deleting review method
+2020-11-13 12:28:43 INFO  - Execution of deleting review took 1msec.
+2020-11-13 12:28:44 INFO  - Start of deleting review method
+2020-11-13 12:28:44 INFO  - End of deleting review method
+2020-11-13 12:28:44 INFO  - Execution of deleting review took 2msec.
+2020-11-13 12:28:56 INFO  - Start of deleting event method
+2020-11-13 12:28:56 INFO  - End of deleting event method
+2020-11-13 12:28:56 INFO  - Execution of deleting event took 3msec.
+2020-11-13 12:29:20 INFO  - Start of changing event method
+2020-11-13 12:29:20 INFO  - End of changing event method
+2020-11-13 12:29:20 INFO  - Execution of changing event took 6msec.
+2020-11-13 12:29:43 INFO  - Start of adding event method
+2020-11-13 12:29:43 INFO  - End of adding event method
+2020-11-13 12:29:43 INFO  - Execution of adding event took 3msec.
+2020-11-21 15:25:22 INFO  - Start of adding event method
+2020-11-21 15:25:23 INFO  - End of adding event method
+2020-11-21 15:25:23 INFO  - Execution of adding event took 111msec.
+2020-11-21 16:52:10 INFO  - Start of adding event method
+2020-11-21 16:52:10 INFO  - End of adding event method
+2020-11-21 16:52:10 INFO  - Execution of adding event took 29msec.
+2020-11-21 16:57:45 INFO  - Start of adding event method
+2020-11-21 16:57:45 INFO  - Error: date: не должно равняться null
+2020-11-21 16:57:45 INFO  - End of adding event method
+2020-11-21 16:57:54 INFO  - Start of adding event method
+2020-11-21 16:57:54 INFO  - Error: description: не должно быть пустым
+2020-11-21 16:57:54 INFO  - End of adding event method
+2020-11-21 16:58:03 INFO  - Start of adding event method
+2020-11-21 16:58:03 INFO  - Error: date: не должно равняться null
+2020-11-21 16:58:03 INFO  - End of adding event method
+2020-11-21 16:58:33 INFO  - Start of adding event method
+2020-11-21 16:58:33 INFO  - Error: date: не должно равняться null
+2020-11-21 16:58:33 INFO  - End of adding event method
+2020-11-21 16:59:07 INFO  - Start of adding event method
+2020-11-21 16:59:07 INFO  - Error: description: не должно быть пустым
+2020-11-21 16:59:07 INFO  - End of adding event method
+2020-11-21 16:59:28 INFO  - Start of adding event method
+2020-11-21 16:59:28 INFO  - Error: name: не должно быть пустым
+2020-11-21 16:59:28 INFO  - End of adding event method
+2020-11-21 17:01:43 INFO  - Start of adding event method
+2020-11-21 17:01:43 INFO  - End of adding event method
+2020-11-21 17:01:43 INFO  - Execution of adding event took 51msec.
+2020-11-21 17:14:33 INFO  - Start of deleting event method
+2020-11-21 17:14:33 INFO  - End of deleting event method
+2020-11-21 17:14:33 INFO  - Execution of deleting event took 15msec.
+2020-11-21 17:14:35 INFO  - Start of deleting event method
+2020-11-21 17:14:35 INFO  - End of deleting event method
+2020-11-21 17:14:35 INFO  - Execution of deleting event took 3msec.
+2020-11-21 17:14:38 INFO  - Start of deleting event method
+2020-11-21 17:14:38 INFO  - End of deleting event method
+2020-11-21 17:14:38 INFO  - Execution of deleting event took 4msec.
+2020-11-21 17:14:49 INFO  - Start of adding event method
+2020-11-21 17:14:49 INFO  - End of adding event method
+2020-11-21 17:14:49 INFO  - Execution of adding event took 13msec.
+2020-11-25 17:43:37 INFO  - Start of adding event method
+2020-11-25 17:43:38 INFO  - End of adding event method
+2020-11-25 17:43:38 INFO  - Execution of adding event took 72msec.
+2020-11-25 17:44:25 INFO  - Start of adding event method
+2020-11-25 17:44:25 INFO  - End of adding event method
+2020-11-25 17:44:25 INFO  - Execution of adding event took 28msec.
+2020-11-25 17:44:29 INFO  - Start of deleting event method
+2020-11-25 17:44:29 INFO  - End of deleting event method
+2020-11-25 17:44:29 INFO  - Execution of deleting event took 7msec.
+2020-11-25 17:44:31 INFO  - Start of deleting event method
+2020-11-25 17:44:31 INFO  - End of deleting event method
+2020-11-25 17:44:31 INFO  - Execution of deleting event took 3msec.
+2020-11-25 17:44:54 INFO  - Start of deleting review method
+2020-11-25 17:44:54 INFO  - End of deleting review method
+2020-11-25 17:44:54 INFO  - Execution of deleting review took 3msec.
+2020-11-25 21:51:48 INFO  - Start of adding event method
+2020-11-25 21:51:48 INFO  - Error: name: не должно быть пустым
+2020-11-25 21:51:48 INFO  - End of adding event method
+2020-11-25 21:52:06 INFO  - Start of adding event method
+2020-11-25 21:52:06 INFO  - Error: description: не должно быть пустым
+2020-11-25 21:52:06 INFO  - End of adding event method
+2020-11-25 21:52:14 INFO  - Start of adding event method
+2020-11-25 21:52:14 INFO  - Error: date: не должно равняться null
+2020-11-25 21:52:14 INFO  - End of adding event method
+2020-11-25 21:52:36 INFO  - Start of adding event method
+2020-11-25 21:52:36 INFO  - Error: region: Empty region
+2020-11-25 21:52:36 INFO  - End of adding event method
+2020-11-25 21:53:03 INFO  - Start of adding event method
+2020-11-25 21:53:03 INFO  - Error: date: не должно равняться null
+2020-11-25 21:53:03 INFO  - End of adding event method
+2020-11-25 21:53:11 INFO  - Start of adding event method
+2020-11-25 21:53:11 INFO  - Error: date: не должно равняться null
+2020-11-25 21:53:11 INFO  - End of adding event method
+2020-11-25 21:53:26 INFO  - Start of adding event method
+2020-11-25 21:53:26 INFO  - Error: name: не должно быть пустым
+2020-11-25 21:53:26 INFO  - End of adding event method
+2020-11-25 22:16:37 INFO  - Error: Incorrect login or password
+2020-11-25 22:17:17 INFO  - Start of deleting event method
+2020-11-25 22:17:17 INFO  - End of deleting event method
+2020-11-25 22:17:17 INFO  - Execution of deleting event took 19msec.
+2020-11-25 22:22:08 INFO  - Start of adding event method
+2020-11-25 22:22:08 INFO  - Error: date: не должно равняться null
+2020-11-25 22:22:08 INFO  - End of adding event method
+2020-11-25 22:22:14 INFO  - Start of adding event method
+2020-11-25 22:22:14 INFO  - Error: region: Empty region
+2020-11-25 22:22:14 INFO  - End of adding event method
+2020-11-25 22:22:59 INFO  - Start of adding event method
+2020-11-25 22:23:26 INFO  - Error: date: не должно равняться null
+2020-11-25 22:23:26 INFO  - End of adding event method
+2020-11-25 22:24:20 INFO  - Start of adding event method
+2020-11-25 22:24:55 INFO  - End of adding event method
+2020-11-25 22:24:55 INFO  - Execution of adding event took 34759msec.
+2020-11-25 22:29:39 INFO  - Start of adding event method
+2020-11-25 22:29:39 INFO  - End of adding event method
+2020-11-25 22:29:39 INFO  - Execution of adding event took 26msec.
+2020-11-25 22:32:22 INFO  - Start of adding event method
+2020-11-25 22:32:22 INFO  - Error: description: размер должен находиться в диапазоне от 10 до 200
+2020-11-25 22:32:22 INFO  - End of adding event method
+2020-11-25 22:32:31 INFO  - Start of adding event method
+2020-11-25 22:32:31 INFO  - End of adding event method
+2020-11-25 22:32:31 INFO  - Execution of adding event took 25msec.
+2020-11-25 22:33:40 INFO  - Start of deleting event method
+2020-11-25 22:33:40 INFO  - End of deleting event method
+2020-11-25 22:33:40 INFO  - Execution of deleting event took 7msec.
+2020-11-27 11:44:42 INFO  - Start of adding event method
+2020-11-27 11:44:42 INFO  - End of adding event method
+2020-11-27 11:44:42 INFO  - Execution of adding event took 55msec.

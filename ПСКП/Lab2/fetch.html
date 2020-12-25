@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        <input type="button" value="Жми #2" onclick="getRequest()"/>
+    </body>
+    <script>
+        async function getRequest() {
+            const f = await fetch("http://localhost:5000/api/name", {
+		        method: 'GET'
+	        });
+            const result = await f.text();
+            document.body.innerHTML += result;
+        }
+    </script>
+</html>

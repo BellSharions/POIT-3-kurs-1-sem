@@ -1,0 +1,20 @@
+<html>
+    <head></head>
+    <body>
+        <input type="button" value="Жми #3" onclick="getRequest()"/>
+    </body>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script>
+        async function getRequest() {
+            $.ajax({
+                    url: "http://localhost:5000/api/name",
+                    success: function(data) {
+                        document.body.innerHTML += data;
+                }
+            });
+        }
+    </script>
+</html>

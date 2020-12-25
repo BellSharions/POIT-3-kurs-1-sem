@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Project list</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <h1>Project list</h1>
+    <h2>
+        <a href="/addproject">Add new project</a><br/>
+        <a href="/deleteproject">Delete project</a><br/>
+        <a href="/changeproject">Change project</a>
+    </h2>
+    <br/><br/>
+    <div class="container">
+        <table class="container" border="1">
+            <tr>
+                <th><h1>Name</h1></th>
+                <th><h1>Description</h1></th>
+            </tr>
+            <tr th:each="project : ${projects}">
+                <td th:utext="${project.name}">...</td>
+                <td th:utext="${project.description}">...</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Change</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<div class="container">
+    <h1>Change project:</h1>
+    <form action="/changeproject"
+          th:object="${projectform}" method="post">
+        <p>Name:
+            <input type="text" th:field="*{name}"/>
+        </p>
+        <p>New description:
+            <input type="text" th:field="*{description}"/>
+        </p>
+        <input type="submit" value="Change"/>
+    </form>
+    <form method="get" action="/allprojects">
+        <input type="submit" value="Back"/>
+    </form>
+</div>
+<div th:if="${errorMessage}" th:utext="${errorMessage}"
+     style="color: #ff0000; font-style: italic"></div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+LOAD DATA
+INFILE orders.txt
+INTO TABLE orders
+REPLACE
+FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '"'
+(
+	o_id,
+	o_name"UPPER(:o_name)",
+	o_date DATE "DD-MM-YYYY"
+)

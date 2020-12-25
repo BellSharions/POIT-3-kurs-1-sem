@@ -1,0 +1,18 @@
+<html>
+    <head></head>
+    <body>
+        <div id="div">Unknown</div>
+    </body>
+    <script>
+        let div = document.getElementById("div");
+        fetch("http://localhost:5000/state", {
+            method: 'GET'
+        })
+        .then(response => {
+            return response.text();
+        })
+        .then(data => {
+            div.innerHTML = data;
+        });
+    </script>
+</html>

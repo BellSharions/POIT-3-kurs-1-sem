@@ -1,0 +1,16 @@
+<html>
+    <head></head>
+    <body>
+        <input type="button" value="Жми" onclick="getRequest()"/>
+    </body>
+    <script>
+        function getRequest() {
+            var x = new XMLHttpRequest();
+            x.open("GET", "/api/name", true);
+            x.onload = () => {
+                document.body.innerHTML += x.responseText;
+            }
+            x.send(null);
+        }
+    </script>
+</html>

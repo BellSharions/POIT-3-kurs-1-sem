@@ -1,0 +1,5 @@
+﻿  ClientNP.cpp
+D:\Labs\ПиБСП\Lab8-10\server test\NamedPipe\ClientNP\ClientNP.cpp(79,6): warning C4101: n: неиспользованная локальная переменная
+D:\Labs\ПиБСП\Lab8-10\server test\NamedPipe\ClientNP\ClientNP.cpp(60): warning C4172: возвращение адреса локальной или временной переменной : final_msg
+D:\Labs\ПиБСП\Lab8-10\server test\NamedPipe\ClientNP\ClientNP.cpp(65): warning C4172: возвращение адреса локальной или временной переменной : final_msg
+  ClientNP.vcxproj -> D:\Labs\ПиБСП\Lab8-10\server test\NamedPipe\Debug\ClientNP.exe

@@ -1,0 +1,98 @@
+"2020-09-18 11:42:03 [restartedMain] INFO  b.s.s.StartspringApplication - Starting StartspringApplication on DESKTOP-PGBJ4MG with PID 5772 (D:\Labs\Java\Lab1\target\classes started by dmitr in D:\Labs\Java\Lab1)
+""2020-09-18 11:42:03 [restartedMain] INFO  b.s.s.StartspringApplication - No active profile set, falling back to default profiles: default
+""2020-09-18 11:42:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2020-09-18 11:42:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2020-09-18 11:42:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-09-18 11:42:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90ms. Found 0 JPA repository interfaces.
+""2020-09-18 11:42:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-09-18 11:42:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-09-18 11:42:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-09-18 11:42:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-09-18 11:42:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11382 ms
+""2020-09-18 11:42:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2020-09-18 11:42:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2020-09-18 11:42:17 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:9f4a04e7-99aa-4139-9626-61eabf92723f'
+""2020-09-18 11:42:18 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-09-18 11:42:18 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-09-18 11:42:19 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-09-18 11:42:19 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+""2020-09-18 11:42:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-09-18 11:42:22 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-09-18 11:42:23 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-09-18 11:42:23 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2020-09-18 11:42:24 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-09-18 11:42:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-09-18 11:42:24 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-09-18 11:42:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-09-18 11:42:25 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+""2020-09-18 11:42:25 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+""2020-09-18 11:42:25 [restartedMain] INFO  b.s.s.StartspringApplication - Started StartspringApplication in 26.024 seconds (JVM running for 42.536)
+""2020-09-18 11:43:21 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-09-18 11:43:22 [http-nio-8080-exec-1] INFO  b.s.s.controller.ProjectController - /index was called
+""2020-09-18 11:43:37 [http-nio-8080-exec-4] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 11:43:39 [http-nio-8080-exec-7] INFO  b.s.s.controller.ProjectController - /addproject was called
+""2020-09-18 11:43:43 [http-nio-8080-exec-5] INFO  b.s.s.controller.ProjectController - add project
+""2020-09-18 11:43:45 [http-nio-8080-exec-10] INFO  b.s.s.controller.ProjectController - /deleteproject was called
+""2020-09-18 11:43:50 [http-nio-8080-exec-2] INFO  b.s.s.controller.ProjectController - change project
+""2020-09-18 11:43:52 [http-nio-8080-exec-4] INFO  b.s.s.controller.ProjectController - /deleteproject was called
+""2020-09-18 11:43:55 [http-nio-8080-exec-7] INFO  b.s.s.controller.ProjectController - delete project
+""2020-09-18 11:43:57 [http-nio-8080-exec-5] INFO  b.s.s.controller.ProjectController - /deleteproject was called
+""2020-09-18 11:43:58 [http-nio-8080-exec-10] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 11:44:04 [http-nio-8080-exec-2] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 11:44:05 [http-nio-8080-exec-4] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 11:44:06 [http-nio-8080-exec-7] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 11:44:07 [http-nio-8080-exec-5] INFO  b.s.s.controller.ProjectController - /deleteproject was called
+""2020-09-18 11:44:11 [http-nio-8080-exec-10] INFO  b.s.s.controller.ProjectController - change project
+""2020-09-18 12:03:54 [http-nio-8080-exec-4] INFO  b.s.s.controller.ProjectController - /index was called
+""2020-09-18 12:03:56 [http-nio-8080-exec-7] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:04:17 [restartedMain] INFO  b.s.s.StartspringApplication - Starting StartspringApplication on DESKTOP-PGBJ4MG with PID 9284 (D:\Labs\Java\Lab1\target\classes started by dmitr in D:\Labs\Java\Lab1)
+""2020-09-18 12:04:17 [restartedMain] INFO  b.s.s.StartspringApplication - No active profile set, falling back to default profiles: default
+""2020-09-18 12:04:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2020-09-18 12:04:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2020-09-18 12:04:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-09-18 12:04:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 JPA repository interfaces.
+""2020-09-18 12:04:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-09-18 12:04:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-09-18 12:04:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+""2020-09-18 12:04:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-09-18 12:04:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3955 ms
+""2020-09-18 12:04:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2020-09-18 12:04:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2020-09-18 12:04:22 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1634953d-f344-4a5b-b2bd-6fd588455857'
+""2020-09-18 12:04:22 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-09-18 12:04:22 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-09-18 12:04:23 [restartedMain] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-09-18 12:04:23 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+""2020-09-18 12:04:23 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-09-18 12:04:24 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-09-18 12:04:24 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2020-09-18 12:04:24 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2020-09-18 12:04:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-09-18 12:04:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-09-18 12:04:25 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+""2020-09-18 12:04:25 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+""2020-09-18 12:04:25 [restartedMain] INFO  b.s.s.StartspringApplication - Started StartspringApplication in 8.777 seconds (JVM running for 11.577)
+""2020-09-18 12:04:25 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-09-18 12:04:25 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-09-18 12:14:35 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-09-18 12:14:35 [http-nio-8080-exec-1] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:16:06 [http-nio-8080-exec-7] INFO  b.s.s.controller.ProjectController - /index was called
+""2020-09-18 12:16:15 [http-nio-8080-exec-3] INFO  b.s.s.controller.ProjectController - /index was called
+""2020-09-18 12:16:17 [http-nio-8080-exec-2] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:16:30 [http-nio-8080-exec-10] INFO  b.s.s.controller.ProjectController - /addproject was called
+""2020-09-18 12:16:37 [http-nio-8080-exec-8] INFO  b.s.s.controller.ProjectController - add project
+""2020-09-18 12:22:20 [http-nio-8080-exec-3] INFO  b.s.s.controller.ProjectController - /addproject was called
+""2020-09-18 12:22:32 [http-nio-8080-exec-2] INFO  b.s.s.controller.ProjectController - add project
+""2020-09-18 12:23:05 [http-nio-8080-exec-10] INFO  b.s.s.controller.ProjectController - add project
+""2020-09-18 12:23:15 [http-nio-8080-exec-8] INFO  b.s.s.controller.ProjectController - add project
+""2020-09-18 12:24:07 [http-nio-8080-exec-3] INFO  b.s.s.controller.ProjectController - /addproject was called
+""2020-09-18 12:24:12 [http-nio-8080-exec-2] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:24:13 [http-nio-8080-exec-10] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:24:14 [http-nio-8080-exec-8] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:24:14 [http-nio-8080-exec-5] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:24:14 [http-nio-8080-exec-3] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:24:15 [http-nio-8080-exec-2] INFO  b.s.s.controller.ProjectController - /allprojects was called
+""2020-09-18 12:24:17 [http-nio-8080-exec-10] INFO  b.s.s.controller.ProjectController - /deleteproject was called
+""2020-09-18 12:24:21 [http-nio-8080-exec-8] INFO  b.s.s.controller.ProjectController - /addproject was called
+""2020-09-18 12:24:27 [http-nio-8080-exec-3] INFO  b.s.s.controller.ProjectController - add project
+"

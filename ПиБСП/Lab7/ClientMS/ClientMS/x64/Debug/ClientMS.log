@@ -1,0 +1,4 @@
+﻿  ClientMS.cpp
+C:\Users\Администратор\Desktop\PSP\ClientMS\ClientMS\ClientMS.cpp(76,13): warning C4101: t2: неиспользованная локальная переменная
+C:\Users\Администратор\Desktop\PSP\ClientMS\ClientMS\ClientMS.cpp(76,9): warning C4101: t1: неиспользованная локальная переменная
+  ClientMS.vcxproj -> C:\Users\Администратор\Desktop\PSP\ClientMS\x64\Debug\ClientMS.exe
